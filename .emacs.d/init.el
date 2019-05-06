@@ -10,6 +10,7 @@
       indent-tabs-mode nil)
 (setq make-backup-files nil)
 (defalias 'yes-or-no-p 'y-or-n-p)
+(set-face-attribute 'default nil :height 140)
 
 (require 'package)
 (package-initialize)
